@@ -72,10 +72,47 @@ div:nth-of-type(2){
     height: 600px;
     display: flex;
     justify-content: center;
+    float: left;
 }
 
 div:nth-of-type(2) img{
     width: 130px;
     height: 130px;
     align-self: center;
+}
+
+.side-main-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 40%;
+    float: right;
+}
+
+.side-main-txt p{
+    max-width: 65%;
+    text-align: center;
+    align-self: center;
+}
+
+.side-main-txt img{
+    width: 3.5%;
+    align-self: center;
+}
+
+.side-main-txt p:first-of-type{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.side-main-txt p:last-of-type{
+    color: grey;
+    line-height: 27px;
+    word-spacing: 6px;
+}
+
+.right-main-img{
+    width: 40%;
+    height: 200px;
 }
