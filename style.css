@@ -68,7 +68,7 @@ header nav ul li a{
 div:nth-of-type(2){
     background-image: url("img/left-box-1.jpg");
     background-size: cover;
-    width: 60%;
+    width: 70%;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -86,7 +86,7 @@ div:nth-of-type(2) img{
     flex-direction: column;
     justify-content: center;
     height: 400px;
-    width: 40%;
+    width: 30%;
     float: right;
 }
 
@@ -113,14 +113,14 @@ div:nth-of-type(2) img{
 }
 
 .right-main-img{
-    width: 40%;
+    width: 30%;
     height: 200px;
 }
 
 div:nth-of-type(4){
     background-image: url("img/left-box-2.jpg");
     background-size: cover;
-    width: 60%;
+    width: 70%;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -139,4 +139,20 @@ div:nth-of-type(5){
 
 main img:nth-of-type(2){
     float: left;
+}
+
+div:nth-of-type(6){
+    background-image: url("img/red-frame.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+div:nth-of-type(6) img{
+    width: 190px;
+    height: 70px;
+    align-self: center;
 }
