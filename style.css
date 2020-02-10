@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap"');
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body{
@@ -65,7 +65,7 @@ header nav ul li a{
     word-spacing: 6px;
 }
 
-div:nth-of-type(2){
+#bicylelogo{
     background-image: url("img/left-box-1.jpg");
     background-size: cover;
     width: 70%;
@@ -75,7 +75,7 @@ div:nth-of-type(2){
     float: left;
 }
 
-div:nth-of-type(2) img{
+#bicylelogo img{
     width: 130px;
     height: 130px;
     align-self: center;
@@ -115,6 +115,7 @@ div:nth-of-type(2) img{
 .right-main-img{
     width: 30%;
     height: 204px;
+    float: left;
 }
 
 div:nth-of-type(5){
@@ -154,7 +155,50 @@ div:nth-of-type(7) img{
 }
 
 div:nth-of-type(8){
-    width
+    float: left;
+    width: 40%;
+}
+
+img:nth-child(11){
+    float: left;
+    height: 204px;
+    width: 40%;
+}
+
+img:nth-of-type(4){
+    width: 30%;
+    height: 600px;
+}
+
+.tweet{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet img{
+    width: 35px;
+    align-self: center;
+}
+
+.tweet p{
+    text-align: center;
+}
+
+.tweet p:first-of-type{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.tweet p:last-of-type{
+    color: grey;
+    font-style: italic;
+    word-spacing: 4px;
+    line-height: 25px;
+    max-width: 60%;
+    align-self: center;
 }
 
 .clear{
