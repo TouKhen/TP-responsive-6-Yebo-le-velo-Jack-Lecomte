@@ -128,11 +128,27 @@ main{
 #red-seat{
     background-image: url(img/seat-red.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#red-seat img{
+    align-self: flex-start;
+    width: 35px;
+    margin-top: -2px;
 }
 
 #black-seat{
     background-image: url("img/seat-black.jpg");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#black-seat img{
+    align-self: flex-start;
+    width: 35px;
+    margin-top: -2px;
 }
 
 div:nth-of-type(6){
@@ -172,10 +188,20 @@ div:nth-of-type(11){
     width: 40%;
 }
 
-img:nth-child(12){
+#chrome-wheel{
     float: left;
     height: 204px;
     width: 40%;
+    background-image: url("img/chrome-wheels.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#chrome-wheel img{
+    align-self: flex-start;
+    width: 35px;
+    margin-top: -2px;
 }
 
 #red-bike{
@@ -396,6 +422,22 @@ footer form button{
         width: 100%;
         height: 200px;
         float: left;
+    }
+
+    #red-seat img{
+        display: none;
+    }
+
+    #black-seat img{
+        display: none;
+    }
+
+    #chrome-wheel{
+        width: 100%;
+    }
+
+    #chrome-wheel img{
+        display: none;
     }
 
     div:nth-of-type(6) {
