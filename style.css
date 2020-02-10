@@ -37,12 +37,6 @@ header nav ul li a{
     letter-spacing: 2px;
 }
 
-main{
-    position: relative;
-    z-index: 100;
-    background-color: white;
-}
-
 .main-txt{
     display: flex;
     flex-direction: column;
