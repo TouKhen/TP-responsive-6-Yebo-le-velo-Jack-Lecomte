@@ -400,6 +400,24 @@ footer form button{
         width: 100%;
     }
 
+    img:nth-child(11) {
+        float: left;
+        height: 200px;
+        width: 100%;
+    }
+
+    img:nth-of-type(4) {
+        width: 100%;
+        height: 500px;
+    }
+
+    #image-g div {
+        width: 100%;
+        height: 87vw;
+        float: left;
+        overflow: hidden;
+    }
+
     .numbers-1{
         order: -10;
     }
