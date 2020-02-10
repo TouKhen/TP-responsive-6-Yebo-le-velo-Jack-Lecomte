@@ -188,7 +188,7 @@ img:nth-of-type(4){
 
 .tweet p:first-of-type{
     color: black;
-    font-weight: 500;
+    font-weight: 900;
     letter-spacing: 1px;
 }
 
@@ -199,6 +199,123 @@ img:nth-of-type(4){
     line-height: 25px;
     max-width: 60%;
     align-self: center;
+}
+
+#image-g div{
+    width: 33.3333%;
+    height: 32.6vw;
+    float: left;
+    overflow: hidden;
+}
+
+#image-g div img{
+    float: left;
+}
+
+#image-g div:nth-child(1) img:nth-of-type(1),#image-g div:nth-child(1) img:nth-of-type(2),#image-g div:nth-child(2) img:nth-of-type(1),#image-g div:nth-child(2) img:nth-of-type(2),#image-g div:nth-child(3) img:nth-of-type(2), #image-g div:nth-of-type(3) img:nth-of-type(3){
+    width: 50%;
+}
+
+#image-g div:nth-child(1) img:nth-of-type(3),#image-g div:nth-child(3) img:nth-of-type(1){
+    width: 100%;
+}
+
+#discover{
+    background-color: #333741;
+    height: 115px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#discover button{
+    background-color: #333741;
+    color: white;
+    border: 1px solid white;
+    align-self: center;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+}
+
+footer{
+    height: 600px;
+}
+
+#footer-part-1{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer figure img{
+    margin-left: 35px;
+}
+
+footer figure figcaption{
+    color: grey;
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer form input{
+    padding: 0 15px;
+    width: 230px;
+    height: 50px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+footer form button{
+    background-color: #5ec29d;
+    color: white;
+    padding: 15px;
+    width: 80px;
+    border: none;
+    height: 50px;
+}
+
+#footer-part-2{
+    width: 100%;
+    height: 250px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-part-2-size{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-part-2-size div{
+    width: 33.3333%;
+    float: left;
+}
+
+#footer-part-2-size div:nth-of-type(1) p{
+    color: grey;
+}
+
+#footer-part-2-size div:nth-of-type(2){
+    text-align: center;
+}
+
+#footer-part-2-size div:nth-of-type(2) img{
+    margin: 0 5px;
+}
+
+#footer-part-2-size div:nth-of-type(3) p{
+    color: grey;
+    font-style: italic;
+    text-align: right;
 }
 
 .clear{
